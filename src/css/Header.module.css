@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.buttonToOff {
+    background-color: #00b2ff;
+    margin: 5px;
+    border-radius: 5px;
+    border-style:solid;
+    width: 100px;
+}
+.theme {
+    width: 50%;
+    margin: 0 auto;
+}
+.themeMob {
+    display: none;
+}
+.textStyle {
+    /* color: #00b2ff; */
+    background: -webkit-linear-gradient(45deg,#00b2ff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+@media only screen and (max-width:730px){
+.theme {
+    display: none;
+}
+.themeMob {
+    display: block;
+}
+}
